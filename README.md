@@ -35,8 +35,12 @@ Download: https://github.com/tesseract-ocr/tesseract
 After installation, add the Tesseract path to your system PATH.
 
 ## ▶️ Usage
+calibrate :
+python keet.py calibrate --lang ru
+
 Run:
-python keet.py run --lang en
+python keet.py run --lang ru
+
 
 Options:
 - --lang en/ru        Language selection
