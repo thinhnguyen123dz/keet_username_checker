@@ -1,54 +1,56 @@
 # Keet Username Checker
 
-**Keet Username Checker** is a Python automation tool that generates, tests, and verifies available usernames in Keet using OCR (Tesseract + OpenCV) and GUI automation.
+**Keet Username Checker** — это Python-скрипт для автоматической генерации и проверки никнеймов в Keet с помощью OCR (Tesseract + OpenCV) и эмуляции действий пользователя.
 
-[🇷🇺 Читать на русском](./README_RU.md)
+[🇺🇸 Читать на английском](./README.md)
 
-📹 Demo video: [Watch on YouTube](https://www.youtube.com/watch?v=xmpNrbXmt4k)
+📹 Демонстрационное видео: [Watch on YouTube](https://www.youtube.com/watch?v=xmpNrbXmt4k)
 
-It automatically:
-- Generates usernames with rules (letters + digits, min length 3).
-- Avoids duplicates and re-checks.
-- Saves checked, taken, and free usernames.
-- Uses OCR to read Keet's availability messages.
-- Supports multi-language interface (English + Russian).
+Он умеет:
+- Генерировать никнеймы по правилам (буквы + цифры, минимум 3 символа).
+- Исключать дубликаты и повторные проверки.
+- Сохранять проверенные, занятые и свободные ники.
+- Читать сообщения Keet с помощью OCR.
+- Поддерживает мультиязычность (русский и английский).
 
-## ⚡ Features
-- Automated username checking in Keet.
-- OCR-based detection (pytesseract + opencv).
-- Works with Windows GUI via pyautogui and pywinauto.
-- Resume from last run.
-- Multi-language support (--lang en / --lang ru).
+## ⚡ Возможности
+- Автоматическая проверка никнеймов.
+- Распознавание текста через OCR (pytesseract + opencv).
+- Работа с окнами Windows (pyautogui, pywinauto).
+- Продолжение работы после перезапуска.
+- Выбор языка интерфейса (--lang en / --lang ru).
 
-## 📦 Installation
-Clone the repository:
+## 📦 Установка
+Склонируйте репозиторий:
 ```bash
 git clone https://github.com/YOUR_USERNAME/keet-username-checker.git
 ```
 cd keet-username-checker
 
-Install dependencies:
+Установите зависимости:
 pip install -r requirements.txt
 
-Install Tesseract OCR:
-Download: https://github.com/tesseract-ocr/tesseract
-After installation, add the Tesseract path to your system PATH.
+Установите Tesseract OCR:
+Скачать: https://github.com/tesseract-ocr/tesseract
+После установки добавьте путь к Tesseract в PATH системы.
 
-## ▶️ Usage
+## ▶️ Использование
 Run:
-python keet.py run --lang en
+python keet.py calibrate --lang ru
+python keet.py run --lang ru
 
 Options:
---lang en/ru        Language selection
---min_len N         Minimum username length (default 3)
---max_len N         Maximum username length
---no-resume         Do not resume from previous session
---no-require-digit  Allow usernames without digits
+--lang en/ru        Выбор языка
+--min_len N         Минимальная длина ника (по умолчанию 3)
+--max_len N         Максимальная длина ника
+--no-resume         Не продолжать с предыдущего состояния
+--no-require-digit  Разрешить ники без цифр
 
 ## Output Files
-- free_nicks.txt — available usernames ✅
-- used_nicks.txt — taken usernames ❌
-- checked_nicks.txt — all tested usernames 📝
+- free_nicks.txt — свободные ники ✅
+- used_nicks.txt — занятые ники ❌
+- checked_nicks.txt — все проверенные ники 📝
 
-## License
-This project is licensed under the **MIT license**. See [`LICENSE`](./LICENSE) for more information.
+## Лицензия
+
+Этот проект лицензирован под **MIT license**. Смотрите [`ЛИЦЕНЗИЮ`](./LICENSE) для большей информации.
