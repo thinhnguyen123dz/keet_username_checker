@@ -23,7 +23,7 @@
 ## 📦 Установка
 Склонируйте репозиторий:
 ```bash
-git clone https://github.com/YOUR_USERNAME/keet-username-checker.git
+git clone https://github.com/Baillora/keet_username_checker.git
 ```
 cd keet-username-checker
 
