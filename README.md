@@ -39,11 +39,11 @@ Run:
 python keet.py run --lang en
 
 Options:
---lang en/ru        Language selection
---min_len N         Minimum username length (default 3)
---max_len N         Maximum username length
---no-resume         Do not resume from previous session
---no-require-digit  Allow usernames without digits
+- --lang en/ru        Language selection
+- --min_len N         Minimum username length (default 3)
+- --max_len N         Maximum username length
+- --no-resume         Do not resume from previous session
+- --no-require-digit  Allow usernames without digits
 
 ## Output Files
 - free_nicks.txt — available usernames ✅
