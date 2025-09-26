@@ -3,8 +3,8 @@
 
 """
 Usage:
-  python keet_checker.py calibrate    calibrate mode (set input and ocr_box)
-  python keet_checker.py run          run checking
+  python keet.py calibrate    calibrate mode (set input and ocr_box)
+  python keet.py run          run checking
 
 Default:
  - Generates usernames of length 3 (changeable via --min-len/--max-len)
@@ -13,8 +13,8 @@ Default:
  - Free usernames are stored in free_nicks.txt (no duplicates)
 
  Использование:
-  python keet_checker.py calibrate         режим калибровки (выставить input и ocr_box)
-  python keet_checker.py run               запуск перебора
+  python keet.py calibrate         режим калибровки (выставить input и ocr_box)
+  python keet.py run               запуск перебора
 
 По умолчанию:
  - Генерируются ники длиной 3 символа (можно менять --min-len/--max-len)
@@ -370,3 +370,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
