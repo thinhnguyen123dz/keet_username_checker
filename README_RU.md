@@ -40,11 +40,11 @@ python keet.py calibrate --lang ru
 python keet.py run --lang ru
 
 Options:
---lang en/ru        Выбор языка
---min_len N         Минимальная длина ника (по умолчанию 3)
---max_len N         Максимальная длина ника
---no-resume         Не продолжать с предыдущего состояния
---no-require-digit  Разрешить ники без цифр
+- --lang en/ru        Выбор языка
+- --min_len N         Минимальная длина ника (по умолчанию 3)
+- --max_len N         Максимальная длина ника
+- --no-resume         Не продолжать с предыдущего состояния
+- --no-require-digit  Разрешить ники без цифр
 
 ## Output Files
 - free_nicks.txt — свободные ники ✅
