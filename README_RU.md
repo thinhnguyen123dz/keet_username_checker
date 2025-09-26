@@ -35,8 +35,10 @@ pip install -r requirements.txt
 После установки добавьте путь к Tesseract в PATH системы.
 
 ## ▶️ Использование
-Run:
+Калибровка:
 python keet.py calibrate --lang ru
+
+Запуск:
 python keet.py run --lang ru
 
 Options:
